@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "group": "build",
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "-c=Debug",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "group": "build",
+            "label":"publish",
+            "type":"shell",
+            "dependsOn":[
+                "publish-build",
+                "publish-createmodulefolder"
+            ],
+            "dependsOrder": "sequence",
+            "command":"Move-Item -Path ${workspaceFolder}/publish/MindFlow.Module.* -Destination ${workspaceFolder}/publish/Modules",
+            "args": [],
+            "problemMatcher":[]
+        },
+        {
+            "label": "publish-build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "-c=Release",
+                "-o=${workspaceFolder}/publish",
+                //"--no-restore",
+                "${workspaceFolder}/MindFlow.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish-createmodulefolder",
+            "type":"shell",
+            "command":"if(!(Test-Path ${workspaceFolder}/publish/Modules)){ New-Item -itemType Directory -Path ${workspaceFolder}/publish/Modules }",
+            "args": [],
+            "problemMatcher":[]
+         }
+    ]
+}

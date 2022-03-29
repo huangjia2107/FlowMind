@@ -1,0 +1,23 @@
+﻿{
+  "Procdump": false,
+  "Satellite": {
+    "FileServerIP": "172.16.8.187",
+    "FileServerPort": 9001,
+    "AllSatesFile": "allsates.json",
+    "CommandsFile": "commands.json",
+    "CommandsGroundFile": "commandsGround.json",
+    "EpdusFile": "epdusConfig.json",
+    "CurrentSateCode": ""
+  },
+  "Login": {
+    "UserName": "",
+    "SystemCode": "ats_client",
+    "AmsServerIP": "127.0.0.1",
+    "AmsServerPort": 5000
+  },
+  "Command": {
+    "IsCommandToTransfer": true,
+    "IsCommandToCanWithTcPacket": false,
+    "IsCommandToCanWithTcFrame": false
+  }
+}
