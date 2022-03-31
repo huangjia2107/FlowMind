@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowMind.App", "src\FlowMind.App\FlowMind.App.csproj", "{197EE3DA-A12F-46FA-ADF6-98E21AB2BCCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{8729EB16-82D7-4162-8898-84EF17199146}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowMind.Theme", "src\FlowMind.Theme\FlowMind.Theme.csproj", "{2FA331E6-9DCE-480C-A3E4-9835B1AA0F8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowMind.Common", "src\FlowMind.Common\FlowMind.Common.csproj", "{F640DEEF-2F53-4BCC-923D-BD22D76E3248}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowMind.Core", "src\FlowMind.Core\FlowMind.Core.csproj", "{3914A87C-89AC-4F20-A92E-212F14381069}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B0138A04-1B1A-430A-9E41-E8B16D8EDBC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowMind.Module.Config", "src\Modules\FlowMind.Module.Config\FlowMind.Module.Config.csproj", "{48928F95-2B87-4B00-B61B-6ED87B163192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{197EE3DA-A12F-46FA-ADF6-98E21AB2BCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197EE3DA-A12F-46FA-ADF6-98E21AB2BCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197EE3DA-A12F-46FA-ADF6-98E21AB2BCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197EE3DA-A12F-46FA-ADF6-98E21AB2BCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA331E6-9DCE-480C-A3E4-9835B1AA0F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA331E6-9DCE-480C-A3E4-9835B1AA0F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA331E6-9DCE-480C-A3E4-9835B1AA0F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA331E6-9DCE-480C-A3E4-9835B1AA0F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F640DEEF-2F53-4BCC-923D-BD22D76E3248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F640DEEF-2F53-4BCC-923D-BD22D76E3248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F640DEEF-2F53-4BCC-923D-BD22D76E3248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F640DEEF-2F53-4BCC-923D-BD22D76E3248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3914A87C-89AC-4F20-A92E-212F14381069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3914A87C-89AC-4F20-A92E-212F14381069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3914A87C-89AC-4F20-A92E-212F14381069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3914A87C-89AC-4F20-A92E-212F14381069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48928F95-2B87-4B00-B61B-6ED87B163192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48928F95-2B87-4B00-B61B-6ED87B163192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48928F95-2B87-4B00-B61B-6ED87B163192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48928F95-2B87-4B00-B61B-6ED87B163192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48928F95-2B87-4B00-B61B-6ED87B163192} = {B0138A04-1B1A-430A-9E41-E8B16D8EDBC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {466A1AB8-2F0F-4703-B099-1C10F03D1C1F}
+	EndGlobalSection
+EndGlobal
