@@ -23,7 +23,7 @@
                 "publish-createmodulefolder"
             ],
             "dependsOrder": "sequence",
-            "command":"Move-Item -Path ${workspaceFolder}/publish/MindFlow.Module.* -Destination ${workspaceFolder}/publish/Modules",
+            "command":"Move-Item -Path ${workspaceFolder}/publish/FlowMind.Module.* -Destination ${workspaceFolder}/publish/Modules",
             "args": [],
             "problemMatcher":[]
         },
@@ -36,7 +36,7 @@
                 "-c=Release",
                 "-o=${workspaceFolder}/publish",
                 //"--no-restore",
-                "${workspaceFolder}/MindFlow.sln",
+                "${workspaceFolder}/FlowMind.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

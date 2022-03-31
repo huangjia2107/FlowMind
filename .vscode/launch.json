@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/MindFlow.App.exe",
+            "program": "${workspaceFolder}/bin/Debug/FlowMind.App.exe",
             "args": [],
-            "cwd": "${workspaceFolder}/src/MindFlow.App",
+            "cwd": "${workspaceFolder}/src/FlowMind.App",
             "console": "internalConsole",
             "stopAtEntry": false
         },

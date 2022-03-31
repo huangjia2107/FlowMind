@@ -3,7 +3,7 @@
 :: utf-8
 Chcp 65001>nul
 
-set program=MindFlow
+set program=FlowMind
 
 :: 发布目录
 set publish_path=..\publish
